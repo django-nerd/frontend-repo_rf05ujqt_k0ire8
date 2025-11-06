@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <section className="relative py-24 bg-[#0a0a0a]">
+    <section id="about" className="relative py-24 bg-[#0a0a0a]">
       <div className="absolute inset-0 pointer-events-none" aria-hidden>
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-400/30 to-transparent" />
       </div>
